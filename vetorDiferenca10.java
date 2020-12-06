@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class vetorDiferenca10 {
 	public static void main(String [] args) {
 		Scanner in = new Scanner(System.in);
-		final int n=5;
+		final int n=10;
 		int a[], b[], c[], i, j, x=0, diferentes=0;
 		boolean igual=false;
 		
@@ -34,7 +34,7 @@ public class vetorDiferenca10 {
         	if (igual == false) {
         			c[x] = a[i];
         			x++;
-        			diferentes++; //aqui eu conto a qtde de elementos de c que sao diferentes, pois somente eles serão exibidos
+        			diferentes++; //qtde de elementos de c que sao diferentes, pois somente eles serão exibidos
         	}
         	igual = false;
         }
